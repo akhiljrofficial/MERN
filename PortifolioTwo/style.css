@@ -1,0 +1,121 @@
+*{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    padding: 2rem 42rem 2rem 5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+#img{
+    block-size: 2.5rem;
+}
+ul{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    font-weight: 600;
+}
+#offices{
+    color: red;
+}
+#lineOne{
+    width: 8rem;
+    height: .1rem;
+    background-color: grey;
+}
+#headingTwo{
+    color: grey;
+    margin-top: 1.2rem;
+    margin-bottom: .5rem;
+}
+#headingFour{
+    color: red;
+    margin-top: 2rem;
+}
+#lineTwo{
+    width: 4rem;
+    background-color: red;
+    height: .1rem;
+}
+#articleTwo{
+    padding: 2rem 0 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.headingThree{
+    margin-bottom: .4rem;
+}
+#profilediv{
+    height: 30rem;
+    border-radius: 70px;
+    margin-right: 9rem;
+}
+#profile{
+    height: 30rem;
+    border-radius: 70px;
+}
+#sectionThree{
+    background-color: red;
+    width:40rem;
+    height: 45.5rem;
+}
+#articleOne{
+    display: flex;
+
+}
+#sectionOne{
+    width: 56rem;
+}
+#btnOne{
+    padding: 1rem 2rem 1rem 2rem;
+    height: 3rem;
+    width: 7rem;
+    border: 2px solid white;
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    background-color: red   ;
+    color: white;
+    margin:2rem 2rem 0 0;
+
+}
+#btnTwo{
+    padding: 1rem 3rem 1rem 3rem;
+    border: 2px solid white;
+    margin: 2rem 3rem 0 0;
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(255, 255, 255)   ;
+    color: rgb(250, 0, 0);
+    font-weight: 600;
+}
+#sectionFour{
+    background-color: red;
+    padding: 2rem 5rem;
+    margin-top: 5rem;
+}
+.headingFive{
+    background-color: red;
+    color: white;
+    font-size: 3rem;
+}
+#paraOne{
+    background-color: red;
+    color: rgb(189, 185, 178);
+}
+#sectionFive{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}

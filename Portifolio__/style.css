@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  color: white;
+  background-color: #23253a;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#navbar {
+  padding: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #282939;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  background-color: #282939;
+}
+
+ul li {
+  font-size: 1.2rem;
+  font-weight: 600;
+  list-style: none;
+  background-color: #282939;
+}
+
+#articleOne {
+  padding: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headingOne {
+  font-size: 4.5rem;
+  font-family: sans-serif;
+}
+
+#para {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 20rem;
+  line-height: 1.8rem;
+  color: gray;
+}
+
+.btn {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: red;
+  border: none;
+  outline: none;
+}
+
+#sectionOneCircle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circles {
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: aliceblue;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  border: 2px solid red;
+  background-color: #23253a;
+}
+
+.line {
+  width: 4rem;
+  height: 0.1rem;
+  background-color: aliceblue;
+  margin-bottom: 2rem;
+  rotate: 90deg;
+}
+
+#circleOne {
+  background-color: red;
+}
+
+#articleTwo {
+  padding: 5rem 10rem 10rem 10rem;
+  display: flex;
+}
+
+small{
+    font-size: 1.2rem;
+}
+
+#heading{
+    font-size: 4rem;
+}
+
+#skillLine{
+    width: 5rem;
+    height: .4rem;
+    background-color: rgb(255, 0, 0)
+}
+
+.card {
+  width: 20rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  background-color: #2b2e41;
+}
+
+.cardHeading {
+  background-color: #2b2e41;
+}
+
+.cardPara {
+  background-color: #2b2e41;
+  width: 14rem;
+}
+
+#cardSec{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
